@@ -1,0 +1,10 @@
+C:\Users\axel.dujardin\source\repos\Projet_transport\ConsoleApp2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\axel.dujardin\source\repos\Projet_transport\ConsoleApp2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\axel.dujardin\source\repos\Projet_transport\ConsoleApp2\obj\Debug\MyMetroMobility.csprojAssemblyReference.cache
+C:\Users\axel.dujardin\source\repos\Projet_transport\ConsoleApp2\obj\Debug\MyMetroMobility.csproj.CoreCompileInputs.cache
+C:\Users\axel.dujardin\source\repos\Projet_transport\ConsoleApp2\obj\Debug\MyMetroMobility.csproj.CopyComplete
+C:\Users\axel.dujardin\source\repos\Projet_transport\ConsoleApp2\bin\Debug\MyMetroMobility.exe.config
+C:\Users\axel.dujardin\source\repos\Projet_transport\ConsoleApp2\bin\Debug\MyMetroMobility.exe
+C:\Users\axel.dujardin\source\repos\Projet_transport\ConsoleApp2\bin\Debug\MyMetroMobility.pdb
+C:\Users\axel.dujardin\source\repos\Projet_transport\ConsoleApp2\obj\Debug\MyMetroMobility.exe
+C:\Users\axel.dujardin\source\repos\Projet_transport\ConsoleApp2\obj\Debug\MyMetroMobility.pdb
