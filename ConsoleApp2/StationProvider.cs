@@ -15,6 +15,7 @@ namespace MyMetroMobility
         {
             return JsonConvert.DeserializeObject<List<Station>>(CallApi.ApiCall()); // Commande à executer pour la méthode ConvertJson().
         }
+        // public List<Lines>;
 
         public Dictionary<string, Station> ConvertToDict() // Cette méthode seras appeller par l'interface IStationProvider.
         {
@@ -29,6 +30,7 @@ namespace MyMetroMobility
                     for (int i = 0; i < station.Lines.Count; i++) // Boucle sur le nombres de lignes de station.
                     {
                         if (!myDict[station.Name].Lines.Contains(station.Lines[i])) // Si mon au nom de la station dans mon dictionnaire ne contient pas la lignes de ma station de myList.
+
                         {
                             myDict[station.Name].Lines.Add(station.Lines[i]); // Ajoute dans les lignes au nom de la station, la ligne de la station de myList.
                         }

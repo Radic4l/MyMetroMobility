@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyMetroMobility // Espace utilisé.
 {
-    public class Station // Constructeur Station
+    public class Station // Classe de données.
     {
         public string Id { get; set; }          // Récupère la valeur de Id et l'attribue à la variable.
         public string Name { get; set; }        // Récupère la valeur de Name et l'attribue à la variable.
