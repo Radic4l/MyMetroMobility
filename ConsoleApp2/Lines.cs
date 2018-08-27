@@ -9,7 +9,7 @@ namespace MyMetroMobility
     public class Lines
     {
         public string id { get; set; }
-        public string shortName { get; set; }
+        public string Id { get; set; }
         public string longName { get; set; }
         public string color { get; set; }
         public string textColor { get; set; }

@@ -49,9 +49,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ILinesProvider.cs" />
     <Compile Include="Lines.cs" />
-    <Compile Include="UrlApi.cs" />
     <Compile Include="IStationProvider.cs" />
+    <Compile Include="LinesProvider.cs" />
     <Compile Include="StationProvider.cs" />
     <Compile Include="Station.cs" />
     <Compile Include="CallApi.cs" />

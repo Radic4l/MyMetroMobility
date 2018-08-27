@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace MyMetroMobility
 {
-    class UrlApi
+    internal interface ILinesProvider
     {
+        List<Lines> ConvertLinesJson();
+        Dictionary<string, Lines> ConvertLinesToDict();
     }
 }

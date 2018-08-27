@@ -14,10 +14,12 @@ namespace MyMetroMobility
         static void Main(string[] args) // Méthode static qui ne retourne rien [void], Main qui seras la Classe de démmarage de mon application.
         {
             IStationProvider stationProvider = new StationProvider(); // Nouvelle instance de StationProvider(); en passant par l'interface IStationProvider.
-            // List<Station> stations = stationProvider.ConvertJson();   // Créer une liste de <Station> de la nouvelle instance stationProvider avec la méthode ConvertJson().
-            Dictionary<string, Station> myStationsDict = stationProvider.ConvertToDict(); // Créer un Dictionnaire au format string de <Station> de l'instance stationProvider avec la méthode ConvertToDict().
+            ILinesProvider linesProvider = new LinesProvider();
+            // List<Station> stations = stationProvider.ConvertStationJson();   // Créer une liste de <Station> de la nouvelle instance stationProvider avec la méthode ConvertStationJson().
+            Dictionary<string, Station> myStationsDict = stationProvider.ConvertStationToDict(); // Créer un Dictionnaire au format string de <Station> de l'instance stationProvider avec la méthode ConvertStationToDict().
+            Dictionary<string, Lines> myLinesDict = linesProvider.ConvertLinesToDict();
 
-
+            
 
 
             foreach (Station Station in myStationsDict.Values) // Une boucle pour stocker chaque stations dans une variable.
@@ -29,6 +31,10 @@ namespace MyMetroMobility
                 }
             }
 
+            foreach (Lines Line in myLinesDict.Values)
+            {
+                Console.WriteLine("Result : " + Line.type);
+            }
 
             Console.WriteLine("---------------------------------------");
 

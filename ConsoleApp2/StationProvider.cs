@@ -6,20 +6,16 @@ namespace MyMetroMobility
 {
    internal class StationProvider: IStationProvider  // Créer une classe interne qui implémente l'interface IStationProvider.
     {
-        internal StationProvider() // Une méthode interne appelé StationProvider(). 
-        {
 
-        }
-
-        public List<Station> ConvertJson() // Cette méthode seras appeller par l'interface IStationProvider.
+        public List<Station> ConvertStationJson() // Cette méthode seras appeller par l'interface IStationProvider.
         {
-            return JsonConvert.DeserializeObject<List<Station>>(CallApi.ApiCall()); // Commande à executer pour la méthode ConvertJson().
+            return JsonConvert.DeserializeObject<List<Station>>(CallApi.ApiCall()); // Commande à executer pour la méthode ConvertStationJson().
         }
         // public List<Lines>;
 
-        public Dictionary<string, Station> ConvertToDict() // Cette méthode seras appeller par l'interface IStationProvider.
+        public Dictionary<string, Station> ConvertStationToDict() // Cette méthode seras appeller par l'interface IStationProvider.
         {
-            List<Station> myList = ConvertJson(); // Créer une liste des données récupèrés par la méthode ConvertJson() et les stock dans myList de type <Station>.
+            List<Station> myList = ConvertStationJson(); // Créer une liste des données récupèrés par la méthode ConvertStationJson() et les stock dans myList de type <Station>.
 
             Dictionary<string, Station> myDict = new Dictionary<string, Station>(); // Créer une nouvelle instance de Dictionary de type <string, Station>;
             // Console.WriteLine("myList avant et = à " + myDict.Count);

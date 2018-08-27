@@ -8,7 +8,7 @@ namespace MyMetroMobility // L'interface fait parti de l'espace MyMetroMobility.
 {
     internal interface IStationProvider // Une interface interne. elle seras implémenter par une classe qui possèderas ces méthodes.
     {
-        List<Station> ConvertJson(); // La liste de Station utiliseras la méthode ConvertJson().
-        Dictionary<string, Station> ConvertToDict(); // Les Dictionnaires de type <string & Station> utiliseras la méthode ConvertToDict().
+        List<Station> ConvertStationJson(); // La liste de Station utiliseras la méthode ConvertStationJson().
+        Dictionary<string, Station> ConvertStationToDict(); // Les Dictionnaires de type <string & Station> utiliseras la méthode ConvertStationToDict().
     }
 }

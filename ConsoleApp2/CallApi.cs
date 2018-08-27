@@ -15,7 +15,7 @@ namespace MyMetroMobility
             string Y = "45.1856964", X = "5.7287321", details = "true"; // Y = Latitude & X = Longitude.
             int Z = 400;                                                // Z = Rayon de la zone de recherche.
             
-        ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls; // Prévient de l'utilisation des protocoles Tls.
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls; // Prévient de l'utilisation des protocoles Tls.
             string url = $"http://data.metromobilite.fr/api/linesNear/json?x={X}&y={Y}&dist={Z}&details={details}"; // Url utilisé lors de l'envoie de la requête stocker dans une variable. (R)
 
             Console.WriteLine(url);                                   // Affichage de l'url utilisé.
@@ -32,13 +32,13 @@ namespace MyMetroMobility
             
         }
 
-        public static string ApiCallBus(string stationName)
+        public static string ApiCallBus()
         {
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls; // Prévient de l'utilisation des protocoles Tls.
 
-            string station = stationName;
+            
 
-            string url = $"http://data.metromobilite.fr/api/routers/default/index/routes?codes={station}"; // Url utilisé lors de l'envoie de la requête stocker dans une variable.(R)
+            string url = $"https://data.metromobilite.fr/api/routers/default/index/routes?codes=SEM:12"; // Url utilisé lors de l'envoie de la requête stocker dans une variable.(R)
 
 
             Console.WriteLine(url);                       // Affichage de l'url utilisé.
