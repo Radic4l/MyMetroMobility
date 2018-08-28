@@ -25,11 +25,11 @@ namespace MyMetroMobility
             {
                 if (!myDict.ContainsKey(line.id)) // Si mon dictionnaire myDict contient déjà le nom de la cle station.
                 {
-                    myDict.Add(" La ligne" + line.type + " N° " + line.id + " en direction de " + line.longName, line); // Ajoute le nom de la ligne de myList dans mon dictionnaire.
+                    myDict.Add(line.id, line); // Ajoute le nom de la ligne de myList dans mon dictionnaire.
                 }
             }
             // Console.WriteLine("myList après et = à " + myDict.Count);
-            return myDict; // Retourne les valeurs de mon dictionnaire.
+            return myDict; 
         }
     }
 }

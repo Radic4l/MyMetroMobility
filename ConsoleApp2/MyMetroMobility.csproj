@@ -53,6 +53,8 @@
     <Compile Include="Lines.cs" />
     <Compile Include="IStationProvider.cs" />
     <Compile Include="LinesProvider.cs" />
+    <Compile Include="StationInfos.cs" />
+    <Compile Include="StationInfosPovider.cs" />
     <Compile Include="StationProvider.cs" />
     <Compile Include="Station.cs" />
     <Compile Include="CallApi.cs" />

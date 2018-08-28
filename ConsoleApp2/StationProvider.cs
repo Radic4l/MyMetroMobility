@@ -9,7 +9,23 @@ namespace MyMetroMobility
 
         public List<Station> ConvertStationJson() // Cette méthode seras appeller par l'interface IStationProvider.
         {
-            return JsonConvert.DeserializeObject<List<Station>>(CallApi.ApiCall()); // Commande à executer pour la méthode ConvertStationJson().
+           List<Station> stationConvert = JsonConvert.DeserializeObject<List<Station>>(CallApi.ApiCall()); // Commande à executer pour la méthode ConvertStationJson().
+
+            foreach (Station st in stationConvert)
+            {
+                for (int iSelect = 0; iSelect < st.Lines.Count; iSelect++)
+                {
+                    for (int iCheck = iSelect + 1; iCheck < st.Lines.Count ; iCheck++)
+                    {
+                        if (st.Lines[iSelect] == st.Lines[iCheck])
+                        {
+                            st.Lines.Remove(st.Lines[iSelect]);
+                            iCheck--;
+                        }
+                    }
+                }
+            }
+            return stationConvert;
         }
         // public List<Lines>;
 
@@ -18,7 +34,9 @@ namespace MyMetroMobility
             List<Station> myList = ConvertStationJson(); // Créer une liste des données récupèrés par la méthode ConvertStationJson() et les stock dans myList de type <Station>.
 
             Dictionary<string, Station> myDict = new Dictionary<string, Station>(); // Créer une nouvelle instance de Dictionary de type <string, Station>;
+           
             // Console.WriteLine("myList avant et = à " + myDict.Count);
+
             foreach (Station station in myList) // Boucle qui créer une station de de type Station de myList.
             {
                 if (myDict.ContainsKey(station.Name)) // Si mon dictionnaire myDict contient déjà le nom de la cle station.
