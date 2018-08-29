@@ -11,7 +11,10 @@ namespace MyMetroMobility
     {
         public List<Lines> ConvertLinesJson() // Cette méthode seras appeller par l'interface ILinesProvider.
         {
-            return JsonConvert.DeserializeObject<List<Lines>>(CallApi.ApiCallBus()); // Commande à executer pour la méthode ConvertLinesJson().
+            IStationProvider stationProvider = new StationProvider();
+            List<string> allLines = stationProvider.getLinesIdDict();
+            string lineForApi = string.Join(",", allLines.ToArray());
+            return JsonConvert.DeserializeObject<List<Lines>>(CallApi.ApiCallBus(lineForApi));
         }
         // public List<Lines>;
 

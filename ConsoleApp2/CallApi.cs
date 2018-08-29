@@ -32,13 +32,11 @@ namespace MyMetroMobility
             
         }
 
-        public static string ApiCallBus()
+        public static string ApiCallBus(string lineForApi)
         {
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls; // Prévient de l'utilisation des protocoles Tls.
 
-            
-
-            string url = $"https://data.metromobilite.fr/api/routers/default/index/routes?codes=SEM:12"; // Url utilisé lors de l'envoie de la requête stocker dans une variable.(R)
+            string url = $"https://data.metromobilite.fr/api/routers/default/index/routes?codes={lineForApi}"; // Url utilisé lors de l'envoie de la requête stocker dans une variable.(R)
 
 
             Console.WriteLine(url);                       // Affichage de l'url utilisé.

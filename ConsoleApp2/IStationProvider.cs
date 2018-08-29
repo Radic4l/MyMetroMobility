@@ -11,5 +11,6 @@ namespace MyMetroMobility // L'interface fait parti de l'espace MyMetroMobility.
     {
         List<Station> ConvertStationJson(); // La liste de Station utiliseras la méthode ConvertStationJson().
         Dictionary<string, Station> ConvertStationToDict(); // Les Dictionnaires de type <string & Station> utiliseras la méthode ConvertStationToDict().
+        List<string> getLinesIdDict();
     }
 }

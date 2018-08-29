@@ -17,21 +17,17 @@ namespace MyMetroMobility
             Dictionary<string, Lines> myLinesDict = linesProvider.ConvertLinesToDict();
             Dictionary<string, StationInfos> stationInfosDict = new Dictionary<string, StationInfos>();
 
-            foreach (KeyValuePair<string, Station> stationKeyValue in myStationsDict)
+            foreach (Station station in myStationsDict.Values)
             {
                 List<Lines> lines = new List<Lines>();
 
-                foreach (string line in stationKeyValue.Value.Lines)
+                foreach (string line in station.Lines)
                 {
                     lines.Add(myLinesDict[line]);
                 }
-                StationInfos stationInfos = new StationInfos(stationKeyValue.Value.Id,
-                                                             stationKeyValue.Value.Name,
-                                                             stationKeyValue.Value.Lat,
-                                                             stationKeyValue.Value.Lon,
-                                                             lines);
+                StationInfos stationInfos = new StationInfos(station, lines);
 
-                stationInfosDict.Add(stationKeyValue.Key , stationInfos);
+                stationInfosDict.Add(station.Name , stationInfos);
             }
             return stationInfosDict;
         }

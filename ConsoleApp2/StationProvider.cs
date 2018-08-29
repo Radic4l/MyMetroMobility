@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace MyMetroMobility
 {
@@ -36,6 +37,7 @@ namespace MyMetroMobility
             Dictionary<string, Station> myDict = new Dictionary<string, Station>(); // Créer une nouvelle instance de Dictionary de type <string, Station>;
            
             // Console.WriteLine("myList avant et = à " + myDict.Count);
+            
 
             foreach (Station station in myList) // Boucle qui créer une station de de type Station de myList.
             {
@@ -57,6 +59,20 @@ namespace MyMetroMobility
             }
             // Console.WriteLine("myList après et = à " + myDict.Count);
             return myDict; // Retourne les valeurs de mon dictionnaire.
+        }
+
+        public List<string> getLinesIdDict()
+        {
+            Dictionary<string, Station> stationList = ConvertStationToDict();
+            List<string> LinesIdDict = new List<string>();
+
+            foreach (Station st in stationList.Values)
+            {
+                LinesIdDict = LinesIdDict.Concat(st.Lines).ToList();
+            }
+
+
+            return LinesIdDict.Distinct().ToList();
         }
        
     }
