@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyMetroMobility
+namespace MyDll
 {
-    class StationInfosPovider
+    public class StationInfosPovider
     {
-        internal Dictionary<string, StationInfos>  getInfos ()
+        public Dictionary<string, StationInfos>  getInfos ()
         {
             IStationProvider stationProvider = new StationProvider(); // Nouvelle instance de StationProvider(); en passant par l'interface IStationProvider.
             ILinesProvider linesProvider = new LinesProvider();

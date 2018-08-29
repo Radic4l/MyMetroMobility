@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyMetroMobility // L'interface fait parti de l'espace MyMetroMobility.
+namespace MyDll // L'interface fait parti de l'espace MyMetroMobility.
 {
     internal interface IStationProvider // Une interface interne. elle seras implémenter par une classe qui possèderas ces méthodes.
 

@@ -1,0 +1,9 @@
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MyDll\obj\Debug\MyDll.csprojAssemblyReference.cache
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MyDll\obj\Debug\MyDll.csproj.CoreCompileInputs.cache
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MyDll\bin\Debug\MyDll.dll
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MyDll\bin\Debug\MyDll.pdb
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MyDll\bin\Debug\Newtonsoft.Json.dll
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MyDll\bin\Debug\Newtonsoft.Json.xml
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MyDll\obj\Debug\MyDll.csproj.CopyComplete
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MyDll\obj\Debug\MyDll.dll
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MyDll\obj\Debug\MyDll.pdb

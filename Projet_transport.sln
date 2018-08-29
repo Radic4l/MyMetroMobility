@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMetroMobility", "ConsoleA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMetroTest", "MyMetroTest\MyMetroTest.csproj", "{952FEA06-FDE0-40E9-99E7-F8E58137029F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDll", "MyDll\MyDll.csproj", "{F33A8B34-73FD-4CED-B0B4-CE52D14A2859}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{952FEA06-FDE0-40E9-99E7-F8E58137029F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{952FEA06-FDE0-40E9-99E7-F8E58137029F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{952FEA06-FDE0-40E9-99E7-F8E58137029F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33A8B34-73FD-4CED-B0B4-CE52D14A2859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33A8B34-73FD-4CED-B0B4-CE52D14A2859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33A8B34-73FD-4CED-B0B4-CE52D14A2859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33A8B34-73FD-4CED-B0B4-CE52D14A2859}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

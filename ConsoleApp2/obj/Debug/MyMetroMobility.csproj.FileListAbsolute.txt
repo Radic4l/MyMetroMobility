@@ -28,3 +28,5 @@ C:\Users\axel.dujardin\source\repos\MyMetroMobility\ConsoleApp2\obj\Debug\MyMetr
 C:\Users\axel.dujardin\source\repos\MyMetroMobility\ConsoleApp2\obj\Debug\MyMetroMobility.csproj.CopyComplete
 C:\Users\axel.dujardin\source\repos\MyMetroMobility\ConsoleApp2\obj\Debug\MyMetroMobility.exe
 C:\Users\axel.dujardin\source\repos\MyMetroMobility\ConsoleApp2\obj\Debug\MyMetroMobility.pdb
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\ConsoleApp2\bin\Debug\MyDll.dll
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\ConsoleApp2\bin\Debug\MyDll.pdb

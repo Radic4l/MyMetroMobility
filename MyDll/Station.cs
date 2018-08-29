@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyMetroMobility // Espace utilisé.
+namespace MyDll // Espace utilisé.
 {
     public class Station // Classe de données.
     {

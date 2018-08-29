@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace MyMetroMobility
+namespace MyDll
 {
    internal class StationProvider: IStationProvider  // Créer une classe interne qui implémente l'interface IStationProvider.
     {
