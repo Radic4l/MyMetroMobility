@@ -21,7 +21,6 @@ namespace MyMetroMobility
                 Console.WriteLine("");
                 Console.WriteLine("");
                 Console.WriteLine("");
-
                 Console.WriteLine(Station.ToString());
             }
             Console.ReadKey(); // Attends l'utilisation d'une touche par l'utilisateur.

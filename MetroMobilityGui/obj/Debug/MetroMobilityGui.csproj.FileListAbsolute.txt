@@ -1,0 +1,15 @@
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MetroMobilityGui\bin\Debug\MetroMobilityGui.exe.config
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MetroMobilityGui\bin\Debug\MetroMobilityGui.exe
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MetroMobilityGui\bin\Debug\MetroMobilityGui.pdb
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MetroMobilityGui\obj\Debug\MetroMobilityGui.csprojAssemblyReference.cache
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MetroMobilityGui\obj\Debug\MainWindow.g.cs
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MetroMobilityGui\obj\Debug\App.g.cs
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MetroMobilityGui\obj\Debug\MetroMobilityGui_MarkupCompile.cache
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MetroMobilityGui\obj\Debug\MetroMobilityGui_MarkupCompile.lref
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MetroMobilityGui\obj\Debug\MainWindow.baml
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MetroMobilityGui\obj\Debug\MetroMobilityGui.g.resources
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MetroMobilityGui\obj\Debug\MetroMobilityGui.Properties.Resources.resources
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MetroMobilityGui\obj\Debug\MetroMobilityGui.csproj.GenerateResource.cache
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MetroMobilityGui\obj\Debug\MetroMobilityGui.csproj.CoreCompileInputs.cache
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MetroMobilityGui\obj\Debug\MetroMobilityGui.exe
+C:\Users\axel.dujardin\source\repos\MyMetroMobility\MetroMobilityGui\obj\Debug\MetroMobilityGui.pdb

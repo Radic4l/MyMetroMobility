@@ -49,6 +49,7 @@
     <Compile Include="IStationProvider.cs" />
     <Compile Include="Lines.cs" />
     <Compile Include="LinesProvider.cs" />
+    <Compile Include="Metro.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Station.cs" />
     <Compile Include="StationInfos.cs" />
